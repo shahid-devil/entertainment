@@ -1,5 +1,6 @@
 /* Codded by @afnanplk - farhandqz
-PINKY V2
+re edited by Shahid ser
+LUTTAPI
 */
 
 const MyPnky = require('../events');
@@ -410,6 +411,60 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
     var webimage = await axios.get(`https://xteam.xyz/videomaker/colorful?text=${match[1]}&APIKEY=d9f297dbf7b0bbf4`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.mp4, caption: Config.AFN})
+
+    }));
+    
+    MyPnky.addCommand({pattern: 'page ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
+
+    var webimage = await axios.get(`https://zenzapi.xyz/api/image/nulis?text=${match[1]}&apikey=07d3f898a6`, { responseType: 'arraybuffer' })
+
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```HERE IT IS```'})
+
+    }));
+
+    MyPnky.addCommand({pattern: 'ycm ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+  
+  var topText, bottomText;
+    if (match[1].includes(';')) {
+        var split = match[1].split(';');
+        bottomText = split[1];
+        topText = split[0];
+}
+
+    var webimage = await axios.get(`https://zenzapi.xyz/api/image/ytcomment?image=https://i.ibb.co/KjSBWx4/PicsArt_08-08-12.27.04.jpg&text=${bottomText}&username=${topText}&apikey=07d3f898a6`, { responseType: 'arraybuffer' })
+
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```HERE IT IS```' })
+
+    }));
+    
+   MyPnky.addCommand({pattern: 'phc ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+  
+  var topText, bottomText;
+    if (match[1].includes(';')) {
+        var split = match[1].split(';');
+        bottomText = split[1];
+        topText = split[0];
+}
+
+    var webimage = await axios.get(`https://zenzapi.xyz/api/image/phcomment?image=https://i.ibb.co/KjSBWx4/Pics-Art-02-07-11-45-03.jpg&text=${bottomText}&username=${topText}&apikey=07d3f898a6`, { responseType: 'arraybuffer' })
+
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```HERE IT IS```' })
+
+    }));
+    
+    MyPnky.addCommand({pattern: 'botc ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
+
+    var webimage = await axios.get(`https://zenzapi.xyz/api/image/botcomment?text=${match[1]}&apikey=07d3f898a6`, { responseType: 'arraybuffer' })
+
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```HERE IT IS```'})
 
     }));
 }
