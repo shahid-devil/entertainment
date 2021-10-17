@@ -147,7 +147,7 @@ $ node qr.js
 ```js
 SETUP
 $ git clone https://github.com/shahid-devil/luttapi
-$ cd Meenakshi
+$ cd luttapi
 $ chmod +x *
 $ npm i
 $ node qr.js
