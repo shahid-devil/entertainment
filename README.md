@@ -1,7 +1,7 @@
 <div align="center">
 <a href="https://bit.ly/3koZRGY"><img src="https://fontmeme.com/permalink/210922/f8370cd4e9027b35559ba66e0aa71ac4.png" alt="google-font" border="0"></a>
 <div align="center">
-  <img border-radius: 15px src="https://i.imgur.com/f8s4bDO.jpeg" width="200" height="200"/>
+  <img border-radius: 15px src="https://i.imgur.com/f8s4bDO.jpeg" width="300" height="300"/>
 </p>
 
   
@@ -64,7 +64,7 @@ the user is responsible.
 
 
 <div align="center">
-  <img border-radius: 15px src="https://i.imgur.com/f8s4bDO.jpeg" width="200" height="200"/>
+  <img border-radius: 15px src="https://i.imgur.com/4zQZTl7.jpeg" width="300" height="300"/>
   <p align="center">
 
 
@@ -137,7 +137,7 @@ $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
 $ git clone https://github.com/shahid-devil/luttapi
-$ cd Meenakshi
+$ cd luttapi
 $ chmod +x *
 $ npm install @adiwajshing/baileys
 $ npm install chalk
