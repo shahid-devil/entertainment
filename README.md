@@ -1,7 +1,7 @@
 <div align="center">
 <a href="https://bit.ly/3koZRGY"><img src="https://fontmeme.com/permalink/210922/f8370cd4e9027b35559ba66e0aa71ac4.png" alt="google-font" border="0"></a>
 <div align="center">
-  <img border-radius: 15px src="https://i.imgur.com/f8s4bDO.jpeg" width="300" height="300"/>
+  <img border-radius: 15px src="https://ephmedia.giphy.com/41789308-cf3f-4544-90de-677d11fe4e2a.gif" width="250" height="250"/>
 </p>
 
   
@@ -64,7 +64,7 @@ the user is responsible.
 
 
 <div align="center">
-  <img border-radius: 15px src="https://i.imgur.com/4zQZTl7.jpeg" width="300" height="300"/>
+  <img border-radius: 15px src="https://ephmedia.giphy.com/1beb5ea3-375e-456e-a58a-2514927a4ea4.gif" width="250" height="250"/>
   <p align="center">
 
 
@@ -180,6 +180,17 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 തീർച്ചയായും, ഞാനോ അല്ലെങ്കിൽ Asena എക്സിക്യൂട്ടീവുകൾ ഉത്തരവാദിത്തം സ്വീകരിക്കുന്നില്ല.അസേന
 സ്ഥാപിക്കുന്നതിലൂടെ, നിങ്ങൾ ഈ ഉത്തരവാദിത്തങ്ങൾ സ്വീകരിച്ചതായി കണക്കാക്കപ്പെടുന്നു.
 ```
+
+## Creator
+  <div align="center">
+    
+  [![SHAHID-DEVIL](https://ephmedia.giphy.com/5b00edbf-e9e1-4e03-a668-dcaa0bad632b.gif?size=250)](https://github.com/shahid-devil) 
+  
+##   ᅠ »⃝͜⛦|𝚂𝙷𝙰𝙷𝙸𝙳 𝚂𝙴𝚁|⛦⃝͜« ᅠ
+   <div align="center">
+  
+    
+    </☘¼-_🍁🐰_°Twɩŋĸɭɘ Twɩŋĸɭɘ Lɩttɭɘ Stʌʀ ┼●🐰─┼ ★  🦋">
 
 
 ## Developers
