@@ -6,11 +6,11 @@ https://wa.me//916282185054
 */
 
 const Asena = require('../events');
-const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
+const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
 const Config = require('../config');
-const ll ="എന്തെങ്കിലും type ആക് 🙇‍♂️"
+const ll ="NEED_WORDS"
 const Ln = "▷🤖some textmakers◁ "
 const code = "╭────────────────╮\n   ❏ TEXT MAKER ❏ \n╰────────────────╯\nCommands\n╭────────────────\n│ 🌺 love\n│ 🌺 magma\n│ 🌺 butterfly\n│ 🌺 love\n│ 🌺 grassmsg\n│ 🌺 lovemsg\n│ 🌺 google\n│ 🌺 shadow\n│ 🌺 retrolol\n│ 🌺 harrypotter\n│ 🌺 battlefield\n│ 🌺 wanted\n│ 🌺 snake\n│ 🌺 cobra\n│ 🌺 pikachu\n│ 🌺 eagle\n│ 🌺 shark\n│ 🌺 panther\n│ 🌺 wolf\n│ 🌺 2pubg\n│ 🌺 pirates\n│ 🌺 reaper\n│ 🌺 purple\n│ 🌺 retro\n│ 🌺 3dstyle\n│ 🌺 leaf\n│ 🌺 messi\n│ 🌺 3dtext\n│ 🌺 cr7\n│ 🌺 noel\n│ 🌺 papper\n│ 🌺 comic\n│ 🌺 2comic\n│ 🌺 3comic\n│ 🌺 4comic\n│ 🌺 metal\n│ 🌺 starmetal\n│ 🌺 3druby\n│ 🌺 gflare\n│ 🌺 heated\n│ 🌺 gplay\n│ 🌺 splay\n│ 🌺 cat\n╰────────────────\nExample\n╭───────────────╮\n🍁 .cat luttapi\n🍁 .heated luttapi;bot\n╰───────────────╯"
 
