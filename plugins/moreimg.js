@@ -490,7 +490,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
     
     MyPnky.addCommand({pattern: 'triggered ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_IMAGE);
   
   var topText, bottomText;
     if (match[1].includes(';')) {
@@ -507,7 +507,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
 
     MyPnky.addCommand({pattern: 'triggered2 ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_IMAGE);
   
   var topText, bottomText;
     if (match[1].includes(';')) {
@@ -524,7 +524,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
 
     MyPnky.addCommand({pattern: 'jail ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_IMAGE);
   
   var topText, bottomText;
     if (match[1].includes(';')) {
@@ -541,7 +541,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
     
     MyPnky.addCommand({pattern: 'gta ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_IMAGE);
   
   var topText, bottomText;
     if (match[1].includes(';')) {
@@ -558,7 +558,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
 
     MyPnky.addCommand({pattern: 'wasted ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_IMAGE);
   
   var topText, bottomText;
     if (match[1].includes(';')) {
@@ -575,7 +575,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
 
 MyPnky.addCommand({pattern: 'mspd ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_IMAGE);
   
   var topText, bottomText;
     if (match[1].includes(';')) {
@@ -592,7 +592,7 @@ MyPnky.addCommand({pattern: 'mspd ?(.*)', fromMe: false, dontAddCommandList: tru
 
 MyPnky.addCommand({pattern: 'dlt ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_IMAGE);
   
   var topText, bottomText;
     if (match[1].includes(';')) {
