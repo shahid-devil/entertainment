@@ -499,7 +499,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
         topText = split[0];
 }
 
-    var webimage = await axios.get(`https://zenzapi.xyz/api/image/triggered?image=https://avatars.githubusercontent.com/u/68224412?v=4&apikey=b91fbfa191`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://zenzapi.xyz/api/image/triggered?image=${match[1]}&apikey=b91fbfa191`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.AFN})
 
@@ -516,7 +516,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
         topText = split[0];
 }
 
-    var webimage = await axios.get(`https://zenzapi.xyz/api/image/triggered2?image=https://avatars.githubusercontent.com/u/68224412?v=4&apikey=b91fbfa191`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://zenzapi.xyz/api/image/triggered2?image=${match[1]}&apikey=b91fbfa191`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.AFN})
 
@@ -533,7 +533,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
         topText = split[0];
 }
 
-    var webimage = await axios.get(`https://zenzapi.xyz/api/image/jail?image=https://avatars.githubusercontent.com/u/68224412?v=4&apikey=b91fbfa191`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://zenzapi.xyz/api/image/jail?image=${match[1]}&apikey=b91fbfa191`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.AFN})
 
@@ -550,7 +550,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
         topText = split[0];
 }
 
-    var webimage = await axios.get(`https://zenzapi.xyz/api/photooxy/gtaposter?image=https://avatars.githubusercontent.com/u/68224412?v=4&apikey=b91fbfa191`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://zenzapi.xyz/api/photooxy/gtaposter?image=${match[1]}&apikey=b91fbfa191`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.AFN})
 
@@ -567,7 +567,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
         topText = split[0];
 }
 
-    var webimage = await axios.get(`https://zenzapi.xyz/api/image/wasted?image=https://avatars.githubusercontent.com/u/68224412?v=4&apikey=b91fbfa191`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://zenzapi.xyz/api/image/wasted?image=${match[1]}&apikey=b91fbfa191`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.AFN})
 
@@ -584,7 +584,7 @@ MyPnky.addCommand({pattern: 'mspd ?(.*)', fromMe: false, dontAddCommandList: tru
         topText = split[0];
 }
 
-    var webimage = await axios.get(`https://zenzapi.xyz/api/image/passed?image=https://avatars.githubusercontent.com/u/68224412?v=4&apikey=b91fbfa191`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://zenzapi.xyz/api/image/passed?image=${match[1]}&apikey=b91fbfa191`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.AFN})
 
@@ -601,7 +601,7 @@ MyPnky.addCommand({pattern: 'dlt ?(.*)', fromMe: false, dontAddCommandList: true
         topText = split[0];
 }
 
-    var webimage = await axios.get(`https://zenzapi.xyz/api/image/delete?image=https://avatars.githubusercontent.com/u/68224412?v=4&apikey=b91fbfa191`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://zenzapi.xyz/api/image/delete?image=${match[1]}&apikey=b91fbfa191`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.AFN})
 
@@ -614,23 +614,6 @@ MyPnky.addCommand({pattern: 'dlt ?(.*)', fromMe: false, dontAddCommandList: true
     var webimage = await axios.get(`https://zenzapi.xyz/api/image/botcomment?text=${match[1]}&apikey=07d3f898a6`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.AFN})
-
-    }));
-
-    MyPnky.addCommand({pattern: 'sed ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-  
-  var topText, bottomText;
-    if (match[1].includes(';')) {
-        var split = match[1].split(';');
-        bottomText = split[1];
-        topText = split[0];
-}
-
-    var webimage = await axios.get(`http://lolhuman.herokuapp.com/api/ephoto1/wetglass?apikey=e228d999bd914b35bffb7546&text=${match[1]}`, { responseType: 'arraybuffer' })
-
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.AFN})
 
     }));
 
