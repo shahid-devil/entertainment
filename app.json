@@ -70,16 +70,6 @@
             "required": true,
             "value": "false"
         },
-        "SONGD": {
-            "description": "Customizable song DOWNLOADING message instead of 'Dowloading your song'",
-            "required": true,
-            "value": "*◎♫♪♫ ✎﹏sᴇᴀʀᴄʜɪɴɢ🙈﹏﹏﹏﹏𝅘𝅥𝅮𝅘𝅥𝅯𝆺𝅥𝅯𝄞﹏*"
-        },
-        "SONGU": {
-            "description": "Customizable song UPLOADING message instead of 'Uploading your song'",
-            "required": true,
-            "value": "🎵𓊈𒆜𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝚂𝙾𝙽𝙶𒆜𓊉🎵\n   0:33 ━━●────────── -4:33\n⇆        ◁ㅤㅤ ❚❚ㅤㅤ ▷        ↻\n      VOLUME 🔉■■■■□90%🔊\n     🎧✶⊶⊷⊶⊷😈⊶⊷⊶⊷✶🎧"
-        },
          "THERI_LIST_GP": {
             "description": "enter the word you dont allow in your group ",
             "required": true,
