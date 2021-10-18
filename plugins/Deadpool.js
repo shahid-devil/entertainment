@@ -328,7 +328,7 @@ Asena.addCommand({ pattern: 'starmetal ?(.*)', fromMe: false, dontAddCommandList
 
         if (match[1] === '') return await message.sendMessage(ll);
 
-        var ttinullimage = await axios.get(``https://en.ephoto360.com/metal-star-text-online-109.html, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://en.ephoto360.com/metal-star-text-online-109.html`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.AFN})
 
