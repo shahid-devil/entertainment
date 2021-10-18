@@ -49,8 +49,6 @@ module.exports = {
     UNBLOCKMSG: process.env.UNBLOCK_MESSAGE === undefined ? 'default' : process.env.UNBLOCK_MESSAGE,
     AI: process.env.AI_EVA === undefined ? 'false' : process.env.AI_EVA,
     WD_AI: process.env.WD_AI === undefined ? 'true' : process.env.WD_AI,
-    SONGD: process.env.SONGD === undefined ? '*◎♫♪♫ ✎﹏sᴇᴀʀᴄʜɪɴɢ🙈﹏﹏﹏﹏𝅘𝅥𝅮𝅘𝅥𝅯𝆺𝅥𝅯𝄞﹏*' : process.env.SONGD,
-    SONGU: process.env.SONGU === undefined ? '🎵𓊈𒆜𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝚂𝙾𝙽𝙶𒆜𓊉🎵\n   0:33 ━━●────────── -4:33\n⇆        ◁ㅤㅤ ❚❚ㅤㅤ ▷        ↻\n      VOLUME 🔉■■■■□90%🔊\n     🎧✶⊶⊷⊶⊷😈⊶⊷⊶⊷✶🎧' : process.env.SONGU,
     UNMUTEMSG: process.env.UNMUTE_MESSAGE === undefined ? 'default' : process.env.UNMUTE_MESSAGE,
     WORKTYPE: process.env.WORK_TYPE === undefined ? 'private' : process.env.WORK_TYPE,
     PROMOTEMSG: process.env.PROMOTE_MESSAGE === undefined ? 'default' : process.env.PROMOTE_MESSAGE,
