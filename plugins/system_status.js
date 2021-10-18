@@ -94,7 +94,7 @@ var i = Math.floor(31*Math.random())
         a_plk[10] = "https://i.imgur.com/5s7aHIp.jpeg";
 	a_plk[11] = "https://i.imgur.com/eeIRY92.jpeg";
         a_plk[12] = "https://i.imgur.com/Nwez5Ot.jpeg";
-           var p = Math.floor(13*Math.random())
+         var p = Math.floor(13*Math.random())
 
         var plk_alive = await axios.get(`${a_plk[p]}`, { responseType: 'arraybuffer' })
 
