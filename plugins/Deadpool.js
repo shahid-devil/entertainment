@@ -1,9 +1,9 @@
-coded by shahid-devil
+/*coded by shahid-devil
 LUTTAPI
 copy അടിക്കുമ്പോൾ പേര് മാറ്റരുത് ഒരുപാട് ദിവസത്തെ കഷ്ടപ്പാട് ആണ്
 Contact us :
 https://wa.me//916282185054
-*
+*/
 
 const Asena = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
