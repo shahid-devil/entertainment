@@ -506,7 +506,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
     
     await message.sendMessage(buffer, { Mimetype: Mimetype.jpg }, MessageType.image, {quoted: message.data})
     
-    }));
+    });
    
     MyPnky.addCommand({ pattern: 'jail ?(.*)', fromMe: true, desc: "make jail photo effec" }, async (message, match) => {
     
@@ -516,7 +516,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
         
     await message.sendMessage(buffer, { Mimetype: Mimetype.jpg }, MessageType.image, {quoted: message.data})
 
-    }));
+    });
 
     MyPnky.addCommand({ pattern: 'gta ?(.*)', fromMe: true, desc: "make gta poster photo effec" }, async (message, match) => {
     
@@ -526,7 +526,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
        
     await message.sendMessage(buffer, { Mimetype: Mimetype.jpg }, MessageType.image, {quoted: message.data})
 
-    }));
+    });
 
     MyPnky.addCommand({ pattern: 'passed ?(.*)', fromMe: true, desc: "make mission passed photo effec" }, async (message, match) => {
     
@@ -536,7 +536,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
        
     await message.sendMessage(buffer, { Mimetype: Mimetype.jpg }, MessageType.image, {quoted: message.data})
 
-    }));
+    });
 
     MyPnky.addCommand({ pattern: 'contrast ?(.*)', fromMe: true, desc: "make contrast effect on photo" }, async (message, match) => {
     
@@ -546,7 +546,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
         
     await message.sendMessage(buffer, { Mimetype: Mimetype.jpg }, MessageType.image, {quoted: message.data})
 
-    }));
+    });
 
     MyPnky.addCommand({ pattern: 'ccrop ?(.*)', fromMe: true, desc: "crop sticker in the shape of circle" }, async (message, match) => {
     
@@ -556,7 +556,7 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
        
     await message.sendMessage(buffer, { Mimetype: Mimetype.jpg }, MessageType.image, {quoted: message.data})
 
-    }));
+    });
 
     MyPnky.addCommand({ pattern: 'gray ?(.*)', fromMe: true, desc: "edit photo as gray collor" }, async (message, match) => {
   
@@ -566,6 +566,6 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
     
     await message.sendMessage(buffer, { Mimetype: Mimetype.jpg }, MessageType.image, {quoted: message.data})
     
-    }));
+    });
 
  }
