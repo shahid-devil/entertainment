@@ -1,4 +1,4 @@
-const Asena = require('../events');
+const luttapi = require('../events');
 const {MessageType,Mimetype} = require('@adiwajshing/baileys');
 
 const fs = require('fs');
@@ -7,12 +7,12 @@ const FormData = require('form-data');
 const ffmpeg = require('fluent-ffmpeg');
 const Config = require('../config')
 
-const FIND_DESC = "Busca la canción."
+const FIND_DESC = "look for the song."
 
 if (Config.WORKTYPE == 'private') {
 
-Asena.addCommand({pattern: 'shazam', fromMe: true, desc: FIND_DESC }, (async (message, match) => {
-    if (message.reply_message === false) return await message.client.sendMessage(message.jid, '*Responda a algún audio mp3 para realizar la búsqueda*', MessageType.text);
+luttapi.addCommand({pattern: 'find', fromMe: true, desc: FIND_DESC }, (async (message, match) => {
+    if (message.reply_message === false) return await message.client.sendMessage(message.jid, '*Answer an MP3 audio to perform the search*', MessageType.text);
     var filePath = await message.client.downloadAndSaveMediaMessage({
         key: {
             remoteJid: message.reply_message.jid,
@@ -33,9 +33,9 @@ Asena.addCommand({pattern: 'shazam', fromMe: true, desc: FIND_DESC }, (async (me
         await axios.post('https://api.audd.io/', form, configs).then(async (response) => {
             var res = response.data
             if (res === 'success') {
-                await message.client.sendMessage(message.jid, `Título: ${res.title}\nArtista: ${res.artist}`, MessageType.text);
+                await message.client.sendMessage(message.jid, `Title: ${res.title}\nArtist: ${res.artist}`, MessageType.text);
             } else {
-                await message.client.sendMessage(message.jid, '*Canción no encontrada...*', MessageType.text);
+                await message.client.sendMessage(message.jid, '*song found...*', MessageType.text);
             }
         }).catch((error) =>  {
             console.log(error);
@@ -47,8 +47,8 @@ Asena.addCommand({pattern: 'shazam', fromMe: true, desc: FIND_DESC }, (async (me
 
 else if (Config.WORKTYPE == 'public') {
     
-    Asena.addCommand({pattern: 'shazam', fromMe: false, desc: FIND_DESC }, (async (message, match) => {
-    if (message.reply_message === false) return await message.client.sendMessage(message.jid, '*Responda a algún audio mp3 para realizar la búsqueda*', MessageType.text);
+    luttapi.addCommand({pattern: 'find', fromMe: false, desc: FIND_DESC }, (async (message, match) => {
+    if (message.reply_message === false) return await message.client.sendMessage(message.jid, '*Answer an MP3 audio to perform the search*', MessageType.text);
     var filePath = await message.client.downloadAndSaveMediaMessage({
         key: {
             remoteJid: message.reply_message.jid,
@@ -69,9 +69,9 @@ else if (Config.WORKTYPE == 'public') {
         await axios.post('https://api.audd.io/', form, configs).then(async (response) => {
             var res = response.data
             if (res === 'success') {
-                await message.client.sendMessage(message.jid, `Título: ${res.title}\nArtista: ${res.artist}`, MessageType.text);
+                await message.client.sendMessage(message.jid, `Title: ${res.title}\nArtist: ${res.artist}`, MessageType.text);
             } else {
-                await message.client.sendMessage(message.jid, '*Canción no encontrada...*', MessageType.text);
+                await message.client.sendMessage(message.jid, '*song found...*', MessageType.text);
             }
         }).catch((error) =>  {
             console.log(error);
