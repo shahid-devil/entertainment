@@ -4,14 +4,15 @@ you may not use this file except in compliance with the License.
 LUTTAPI
 */
 
-const Asena = require('../events');
+const luttapi = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
 
+if (Config.STANDPLK == 'off' || Config.STANDPLK == 'OFF') {
 if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'reshmika', fromMe: true, desc: 'random rashmika images'}, (async (message, match) => {
+    luttapi.addCommand({pattern: 'reshmika', fromMe: true, desc: 'random rashmika images'}, (async (message, match) => {
 
     var r_text = new Array ();
 
