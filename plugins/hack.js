@@ -84,7 +84,7 @@ Asena.addCommand({pattern: 'chocolate', fromMe: true, OnlyGroup: true}, (async (
     await new Promise(r => setTimeout(r, 1000));
     await message.sendMessage('{__/}\n( • - • )\n/>💔 🐱');
     await new Promise(r => setTimeout(r, 1000));
-    await message.sendMessage('{__/}\n( • - • )\n/>❤️ if this once more, but if you break it, I'll get angry');
+    await message.sendMessage('{__/}\n( • - • )\n/>❤️ if this once more, but if you break it I will get angry...');
     await new Promise(r => setTimeout(r, 1800));
 
     await message.sendMessage('made by *Shahid ser* >:D');
